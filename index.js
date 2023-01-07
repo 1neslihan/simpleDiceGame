@@ -9,7 +9,8 @@ function rollDice(){
   document.querySelector("img.dice2").setAttribute("src", ImagePath2);
 
   if (randomNumber1 === randomNumber2) {
-    document.querySelector(".hugeHeading").textContent = "Draw!";
+    document.querySelector(".hugeHeading").innerHTML =
+      "<span>🚩</span>Draw!<span>🚩</span>";
   } else if (randomNumber1 > randomNumber2) {
     document.querySelector(".hugeHeading").innerHTML =
       "<span>🚩</span>Player 1 Wins!<span class='Hide'>🚩</span>";
