@@ -1,0 +1,33 @@
+body{
+    background-color:#393E46;
+}
+
+.cerceve{
+    width:70%;
+    margin:auto;
+}
+#baslik{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#Zar{
+    margin-top: 100px;
+    font-family: 'Caveat', cursive;
+    color:rgb(67, 204, 204);
+    font-size: 3rem;  
+}
+
+#footer{
+    padding-top: 50px;
+    color:white;
+    font-family: 'Caveat', cursive;
+    font-size: 1.5rem;
+}
+
+.hugeHeading{
+    font-family: 'Lobster', cursive;
+    font-size: 8rem;
+    color:rgb(67, 204, 204);
+    text-shadow: 5px 7px #232931;
+}
