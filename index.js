@@ -43,8 +43,8 @@ if(randomNumber1===randomNumber2){
     document.querySelector(".hugeHeading").textContent="Draw!";
 }
 else if(randomNumber1>randomNumber2){
-    document.querySelector(".hugeHeading").textContent="🚩 Player 1 Wins!";
+    document.querySelector(".hugeHeading").innerHTML="<span>🚩</span>Player 1 Wins!<span class='Hide'>🚩</span>";
 }
 else{
-    document.querySelector(".hugeHeading").textContent="Player 2 Wins! 🚩";   
+    document.querySelector(".hugeHeading").innerHTML="<span class='Hide'>🚩</span>Player 2 Wins!<span>🚩</span>";   
 }
