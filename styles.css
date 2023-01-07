@@ -2,16 +2,16 @@ body{
     background-color:#393E46;
 }
 
-.cerceve{
+.frame{
     width:70%;
     margin:auto;
 }
-#baslik{
+#heading{
     margin-top: 30px;
     margin-bottom: 30px;
 }
 
-#Zar{
+#dice{
     margin-top: 100px;
     font-family: 'Caveat', cursive;
     color:rgb(67, 204, 204);
