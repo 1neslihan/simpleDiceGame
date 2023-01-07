@@ -19,4 +19,4 @@ function rollDice(){
   }
   
 }
-document.querySelector("custom").getAttribute("onclick");
+document.querySelector(".custom").getAttribute("onclick");
